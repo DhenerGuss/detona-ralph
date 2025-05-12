@@ -45,3 +45,37 @@
     background-image: url(../images/ralph.png);
     background-size: cover;
 }
+#levels{
+    position: relative;
+    left: 400px;
+    top: -100px;
+    background-color: #88d8bd;
+    width: 400px;
+    height: 150px;
+}
+.level h2{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+.level #difficulty{
+    margin: 10px 0 10px 5px;
+    position: relative;
+    left: 119px;
+    width:150px;
+    height: 20px;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    position: relative;
+    left: -65px;
+    top: 50px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #000;
+    color: #FFF;
+}
